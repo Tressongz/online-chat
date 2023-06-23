@@ -75,7 +75,7 @@ const WebSock = () => {
                                     Пользователь {mess.username} подключился
                                 </div>
                                 : <div className="message">
-                                    {mess.username}. {mess.message}
+                                    {mess.username}: {mess.message}
                                 </div>
                             }
                         </div>
